@@ -2,83 +2,168 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Walter's HTML Assessment SD28</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walter's HTML Assessment SD28</title>
 </head>
 
 <body>
+
+  <section id="Text">
     <!-- Add a second-level section header "TEXT" -->
     <h2>TEXT</h2>
     <br>
     <!-- under it three paragraphs. 
-        The first word of each paragraph should be in bold. -->
+      The first word of each paragraph should be in bold. -->
     <p><strong>Strong</strong> is a label in HTML that helps with enbolden words without the use of CSS, and is used
-        quite reguarly. I enjoy using this label so that no matter what changes
-        happen in styling, the selected text will be bold. Of course, this can come down to personal preference, and
-        there are many guidelines that will help make your own decision.</p>
+      quite reguarly. I enjoy using this label so that no matter what changes
+      happen in styling, the selected text will be bold. Of course, this can come down to personal preference, and
+      there are many guidelines that will help make your own decision.</p>
     <!-- The second paragraph should be formatted as a block quotation and emphasized.  -->
     <em>
-        <p><strong>Blockquote</strong> is also an important tool in HTML:
-        <blockquote>Whether you want just the indentation, or your intent is to properly use a quote, this label helps
-            create margin to the left of the website. In fact, you
-            can even add an attribute of "cite" to properly... well, cite your source. By the way, I did not use that
-            attribute here since I'm not quoting myself, although that would be pretty cool. I did however emphasis
-        </blockquote>
-        </p>
+      <p><strong>Blockquote</strong> is also an important tool in HTML:
+      <blockquote>Whether you want just the indentation, or your intent is to properly use a quote, this label helps
+        create margin to the left of the website. In fact, you
+        can even add an attribute of "cite" to properly... well, cite your source. By the way, I did not use that
+        attribute here since I'm not quoting myself, although that would be pretty cool. I did however emphasis
+      </blockquote>
+      </p>
     </em>
     <!-- Third paragraph -->
-    <p><strong>Last</strong> word of the three paragraphs is also to be bold, and I'm running out of things to write here, 
-        but I thought that using lorem ipsum can be a bit dry. There are other, believe it or not, flavors of Lorem Ipsum. 
-        There's a cat one that is pretty funny. You are welcome to google that or I might just put on further down</p>
-    <br> 
-    <!-- Add another section header with the title "TABLE" with data to simulate a game score for the Broncos. 
+    <p><strong>Last</strong> word of the three paragraphs is also to be bold, and I'm running out of things to write
+      here,
+      but I thought that using lorem ipsum can be a bit dry. There are other, believe it or not, flavors of Lorem Ipsum.
+      There's a cat one that is pretty funny. You are welcome to google that or I might just put on further down</p>
+    <br>
+  </section> <!-- end of Text-->
+
+  <!-- Add another section header with the title "TABLE" with data to simulate a game score for the Broncos. 
         Creating a table similar to the one shown below, using both colspan and rowspan attributes -->
+  <section id="Table">
     <h1> <strong>TABLE</strong> </h1>
     <table>
-        <tr>
-          <th colspan="8">Scores by quarter</th>            
-        </tr>
-        <tr>
-          <th colspan="2" rowspan="2">Team Name</th>
-          <th colspan="2">First Half <th>
-          <th colspan="2">Second Half</th>
-          <th colspan="2" rowspan="2">Final</th>
-        </tr>
-        <tr>
-          <th>Q1</th>
-          <th>Q2</th>
-          <th>Q3</th>
-          <th>Q4</th>
-        </tr>
-        <tr>
-          <td colspan="2">Denver</th>
-          <td>7</td>
-          <td>3</td>
-          <td>0</td>
-          <td>7</td>
-          <td>17</td>
-        </tr>
-        <tr>
-          <td colspan="2">Chicago</th>
-          <td>0</td>
-          <td>6</td>
-          <td>3</td>
-          <td>6</td>
-          <td>15</td>
-        </tr>
-        <tr>
-          <th colspan="2">Total</th>
-          <th>7</th>
-          <th>9</th>
-          <th>3</th>
-          <th>13</th>
-          <th>32</th>
-          </tr>
-      </table>
+      <tr>
+        <th colspan="8">Scores by quarter</th>
+      </tr>
+      <tr>
+        <th colspan="2" rowspan="2">Team Name</th>
+        <th colspan="2">First Half
+        <th>
+        <th colspan="2">Second Half</th>
+        <th colspan="2" rowspan="2">Final</th>
+      </tr>
+      <tr>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+      </tr>
+      <tr>
+        <td colspan="2">Denver</th>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td colspan="2">Chicago</th>
+        <td>0</td>
+        <td>6</td>
+        <td>3</td>
+        <td>6</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <th colspan="2">Total</th>
+        <th>7</th>
+        <th>9</th>
+        <th>3</th>
+        <th>13</th>
+        <th>32</th>
+      </tr>
+    </table>
+  </section> <!-- end of Table-->
 
-      
+  <section id="List">
+    <!-- Create a section header with the title of "LIST". Create a list that organizes the teams by team name, 
+        position, and player. Use the default bullets that are provided with an HTML list item. -->
+    <h2>LIST</h2>
+    <ul>
+      <img src="img/New_England_Patriots_logo.svg" alt="New England Patriots Logo" style="width:100px;height:100px;"> By
+      Source, <a href="//en.wikipedia.org/wiki/File:New_England_Patriots_logo.svg"
+        title="Fair use of copyrighted material in the context of New England Patriots">Fair use</a>, <a
+        href="https://en.wikipedia.org/w/index.php?curid=18256701">Link</a>
+      <li><a href="https://www.patriots.com/" target="_blank">New England Patriots</a></li>
+      <ul>
+        <li>QB</li>
+        <ul>
+          <li>Tom Brady</li>
+        </ul>
+      </ul>
+      <img src="img/Denver_Broncos_logo.svg" alt="Denver Broncos Logo" style="width:100px;height:100px;">By Source, <a
+        href="//en.wikipedia.org/wiki/File:Denver_Broncos_logo.svg"
+        title="Fair use of copyrighted material in the context of Denver Broncos">Fair use</a>, <a
+        href="https://en.wikipedia.org/w/index.php?curid=18258229">Link</a>
+      <li><a href="https://www.denverbroncos.com/" target="_blank">Denver Broncos</a></li>
+      <ul>
+        <li>QB</li>
+        <ul>
+          <li>Peyton Manning</li>
+          <li>Brock Ostweiler</li>
+        </ul>
+      </ul>
+    </ul>
+  </section> <!-- end of List-->
+
+  <section id="Forms">
+    <h2>FORM</h2>
+    <form action="">
+      <!-- Give the form input text fields for firstname and lastname. -->
+      <label for="firstName">First Name:</label>
+      <input type="text">
+      <label for="lastName">Last Name:</label>
+      <input type="text">
+    </form>
+    <br>
+      <!-- Add a drop-down options list that allows the user to select their favorite sport from a predefined list. -->
+      <form action="">
+      <label for="favSport">Favorite Sport:</label><br>
+      <select name="sports" id="favSportDDList">
+        <option value="soccer">Soccer</option>
+        <option value="football">Football</option>
+        <option value="basketball">Basketball</option>
+        <option value="tennis">Tennis</option>
+      </select>
+      </form>
+    <br>
+      <!-- Add checkboxes indicating whether they have ever personally played/attended/coached/bet on this sport. -->
+      <form action="">
+        <label for="checkboxes">I have:</label>
+        <input type="checkbox"><label for="attended">Attended</label>
+        <input type="checkbox"><label for="attended">Played</label>
+        <input type="checkbox"><label for="coached">Coached</label>
+        <input type="checkbox"><label for="bet on">Bet On</label>
+      </form>
+      br
+      <!-- Add a radio button group indicating whether they prefer the amateur, college, or professional version. -->
+      <form action="">
+        <label for="radio buttons">The Sporting Level I Prefer is:</label>
+        <input type="radio"><label for="amateur">Amateur</label>
+        <input type="radio"><label for="college">College</label>
+        <input type="radio"><label for="professional">Professional</label>
+      </form>
+      <br>
+      <!-- Add a submit button. -->
+      <form action="">
+        <input type="submit" value="Submit Query">
+      </form>
+      <br> <!-- Use br tags for basic formatting -->
+
+
+  </section> <!-- end of Forms-->
+
 </body>
 
 </html>
