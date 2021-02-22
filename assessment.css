@@ -40,14 +40,33 @@ Make each team's image the background image for the list. Hint Check out the ele
 #teamRoster [alt ="Bears Logo"] {
   display: none;
 }
-#teamRoster {
-  display: inline-block;
-  background-image: url("img/New_England_Patriots_logo");
-  color: red;
+#teamRoster > li:first-child{
+  display: table;
+  background-image: url("img/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 90%;
+}
 
+#teamRoster > li:last-child{
+  display: inline-block;
+  background-image: url("img/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 90%;
 }
 /* User Story #7
 The checkbox list should not be bulleted. */
 #checkbox-grid li {
   list-style-type: none;
+}
+
+/* Stretch Goals
+Have each team's primary quarterback display in bold.
+Use CSS to give the table rows alternating background colors.
+Solid background images can make foreground text hard to read; find a way to have each team's image display behind its roster, but reduced intensity. Do not edit the image itself. */
+
+#teamRoster :first-child {
+  font-weight: bold;
+  color: red;
 }
