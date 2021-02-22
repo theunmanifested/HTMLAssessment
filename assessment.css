@@ -75,3 +75,10 @@ Solid background images can make foreground text hard to read; find a way to hav
   font-weight: bold;
   color: red;
 }
+
+#scoreBoard tr:nth-child(odd) td{
+  background-color: grey;
+}
+#scoreBoard tr:nth-child(even) td{
+  background-color: lightgrey;
+}
