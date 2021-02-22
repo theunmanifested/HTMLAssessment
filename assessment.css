@@ -66,7 +66,12 @@ Have each team's primary quarterback display in bold.
 Use CSS to give the table rows alternating background colors.
 Solid background images can make foreground text hard to read; find a way to have each team's image display behind its roster, but reduced intensity. Do not edit the image itself. */
 
-#teamRoster :first-child {
+#teamRoster > li:first-child > ul > li > ol > li:first-child {
+  font-weight: bold;
+  color: red;
+}
+
+#teamRoster > li:last-child > ul > li > ol > li:first-child {
   font-weight: bold;
   color: red;
 }
